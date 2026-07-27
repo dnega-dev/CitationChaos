@@ -1,0 +1,30 @@
+{
+  "claims": [
+    {
+      "citations": [
+        {
+          "anchor": "p.3",
+          "quote": "Installed solar capacity reached 240 MW in 2024.",
+          "source_id": "board-report",
+          "span_id": "capacity"
+        }
+      ],
+      "id": "solar-capacity",
+      "text": "Installed solar capacity reached 240 MW in 2024."
+    },
+    {
+      "citations": [
+        {
+          "anchor": "p.4",
+          "quote": "The storage pilot begins on 2025-06-15.",
+          "source_id": "board-report",
+          "span_id": "schedule"
+        }
+      ],
+      "id": "pilot-date",
+      "text": "The storage pilot begins on 2025-06-15."
+    }
+  ],
+  "status": "answered",
+  "text": "Installed solar capacity reached 240 MW in 2024. The storage pilot begins on 2025-06-15."
+}
