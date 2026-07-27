@@ -1,0 +1,60 @@
+{
+  "id": "metro-energy",
+  "metadata": {
+    "description": "Synthetic starter corpus",
+    "question": "What did the Metro Energy Board report about solar capacity and the pilot date?"
+  },
+  "sources": [
+    {
+      "current": true,
+      "id": "board-report",
+      "kind": "primary",
+      "published_at": "2025-02-10",
+      "sha256": "e81f8858a636c725e9f2b81333d9ec477fd174eb0d9efff683628a2bdc87f22f",
+      "spans": [
+        {
+          "end": 49,
+          "id": "capacity",
+          "page": "3",
+          "start": 0,
+          "text": "Installed solar capacity reached 240 MW in 2024."
+        },
+        {
+          "end": 91,
+          "id": "schedule",
+          "page": "4",
+          "start": 50,
+          "text": "The storage pilot begins on 2025-06-15."
+        },
+        {
+          "end": 135,
+          "id": "appendix",
+          "page": "9",
+          "start": 92,
+          "text": "The audited figures use nameplate capacity."
+        }
+      ],
+      "title": "Metro Energy Board 2024 Annual Report",
+      "uri": "https://example.invalid/metro-energy/annual-2024"
+    },
+    {
+      "current": true,
+      "id": "board-glossary",
+      "kind": "primary",
+      "published_at": "2024-12-01",
+      "sha256": "0d8e27a54475f8a58500d1f8f90b460b73844ad9bda1592e7220e72bccce1997",
+      "spans": [
+        {
+          "end": 46,
+          "id": "glossary-capacity",
+          "page": "1",
+          "start": 0,
+          "text": "Nameplate capacity is the rated maximum output."
+        }
+      ],
+      "title": "Metro Energy Board Glossary",
+      "uri": "https://example.invalid/metro-energy/glossary"
+    }
+  ],
+  "version": "1"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "harbor-transit",
+  "metadata": {
+    "description": "Synthetic public-transit seed; no real agency is represented.",
+    "question": "What were September weekday ridership and the effective date of the revised fare?"
+  },
+  "sources": [
+    {
+      "current": true,
+      "id": "board-resolution",
+      "kind": "primary",
+      "published_at": "2025-05-20",
+      "sha256": "7e653b1dd6c23ba3726dfb3f5fa037ba82f66b7f034d84d582dfe2909e63e946",
+      "spans": [
+        {
+          "id": "ridership",
+          "page": "2",
+          "text": "Weekday ridership averaged 81,500 trips in September 2024."
+        },
+        {
+          "id": "fare-date",
+          "page": "3",
+          "text": "The revised fare takes effect on 2025-09-01."
+        },
+        {
+          "id": "adoption",
+          "page": "1",
+          "text": "The board adopted the resolution at its public meeting."
+        }
+      ],
+      "title": "Harbor Transit Board Resolution 25-14",
+      "uri": "https://example.invalid/harbor-transit/resolutions/25-14"
+    },
+    {
+      "current": true,
+      "id": "fare-table",
+      "kind": "primary",
+      "published_at": "2024-08-01",
+      "sha256": "625be2272554f9979f9caedeb1d621044968c748b0360311c415a4382a247ab0",
+      "spans": [
+        {
+          "id": "adult-fare",
+          "page": "1",
+          "text": "A standard adult fare is currently 2.50 dollars."
+        }
+      ],
+      "title": "Harbor Transit Fare Table",
+      "uri": "https://example.invalid/harbor-transit/fares"
+    }
+  ],
+  "version": "1"
+}

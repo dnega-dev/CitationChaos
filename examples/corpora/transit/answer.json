@@ -1,0 +1,30 @@
+{
+  "claims": [
+    {
+      "citations": [
+        {
+          "anchor": "p.2",
+          "quote": "Weekday ridership averaged 81,500 trips in September 2024.",
+          "source_id": "board-resolution",
+          "span_id": "ridership"
+        }
+      ],
+      "id": "weekday-ridership",
+      "text": "Weekday ridership averaged 81,500 trips in September 2024."
+    },
+    {
+      "citations": [
+        {
+          "anchor": "p.3",
+          "quote": "The revised fare takes effect on 2025-09-01.",
+          "source_id": "board-resolution",
+          "span_id": "fare-date"
+        }
+      ],
+      "id": "fare-effective-date",
+      "text": "The revised fare takes effect on 2025-09-01."
+    }
+  ],
+  "status": "answered",
+  "text": "Weekday ridership averaged 81,500 trips in September 2024. The revised fare takes effect on 2025-09-01."
+}
