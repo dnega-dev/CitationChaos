@@ -154,7 +154,7 @@ def _module_from_path(path: Path) -> ModuleType:
 def _resolve_spec(specification: str) -> Any:
     if specification == "reference":
         return ReferenceAdapter()
-    module_part, separator, object_part = specification.partition(":")
+    module_part, separator, object_part = specification.rpartition(":")
     if not separator or not module_part or not object_part:
         raise ValueError("adapter must be 'reference' or MODULE:OBJECT / PATH.py:OBJECT")
     if module_part.endswith(".py") or "/" in module_part or "\\" in module_part:
