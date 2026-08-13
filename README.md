@@ -1,5 +1,9 @@
 # Citation Chaos
 
+[![CI](https://github.com/dnega-dev/CitationChaos/actions/workflows/ci.yml/badge.svg)](https://github.com/dnega-dev/CitationChaos/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB)](https://www.python.org/)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 **Mutation testing for grounded AI output pipelines.**
 
 Citation Chaos (CLI: `citation-chaos`) is a zero-runtime-dependency Python 3.9+
